@@ -1,12 +1,16 @@
 /* reset */
 
-*{
-    
+*{    
     scroll-behavior: smooth;    
 }
 
+body{
+    font-family: 'Josefin Sans', sans-serif;    
+    color: #666666; 
+}
+
 :root{
-    font-family: 'Josefin Sans', sans-serif;
+    
     padding: 0;
     margin: 0;
 }
@@ -35,5 +39,41 @@ ul{
     background-color: #00f;
     color: #fff;           
 }
+
+/* global */
+
+
+/* elments */
+.header-top{
+    background-color: #0c65ed;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.header-top{
+    background-color: #0c65ed;
+    padding: 10px 0;
+}
+
+.social-icons i{
+    
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 12px;   
+    font-size: 18px;           
+    color: #fff;
+}
+
+.location i,.contact-info i{
+    position: absolute;
+    font-size: 16px;
+    top: 7px;
+    z-index: 5;
+}
+.location p,.contact-info p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+}
+
 
 
