@@ -95,8 +95,7 @@ ul{
     text-transform: none;    
     padding: 3px;
 }
-.carousel-item img{
-    width: 100%;
+.carousel-item img{    
     height: 90vh;    
     object-fit: cover;
 }
@@ -126,4 +125,27 @@ ul{
     margin: 0 auto 10px auto;
     max-width: 600px;
 }
-
+.title h1{
+    color: #161616;
+    padding: 0 25px;
+    position: relative;
+    display: inline-block;    
+}
+.title h1::before{
+    content: "";
+    background-color:#0c65ed;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: 24px;
+    left: -72px;
+}
+.title h1::after{
+    content: "";
+    background-color:#0c65ed;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: 24px;
+    right: -70px;
+}
