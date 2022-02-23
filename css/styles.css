@@ -170,3 +170,27 @@ ul{
     flex-direction: column;
     max-height: 100%;
 }
+.counter{
+    background-color: #f9f9f9;
+    padding: 70px 0;    
+}
+.c-icon{    
+    height: 65px;
+    width: 65px;    
+    color: #0c65ed;
+    font-size: 29px;
+    padding-top: 9px;
+    text-align: center;
+    margin-right: 25px;
+    background-color: #fff;
+}
+.services{
+    background-image: url(../images/service-bg.jpg);
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    height: 850px;
+}
+
