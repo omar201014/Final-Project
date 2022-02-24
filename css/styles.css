@@ -186,11 +186,59 @@ ul{
 }
 .services{
     background-image: url(../images/service-bg.jpg);
-    position: relative;
-    
+    position: relative;    
     background-position: center;
     background-size: cover;
     z-index: 0;
-    height: 850px;
+    height: auto;
+    margin-bottom: 85px;
 }
 
+.card-content{
+    border: 1px solid gray;    
+}
+
+.overlay-hov{
+    top: 100%;
+    left: 0;
+    transition: 300ms ease;
+    width: 100%;
+    height: 100%;
+}
+.card-content:hover .overlay-hov{
+    top: 0;
+}
+.work{
+    padding: 100px 0;
+    margin-bottom: 85px;
+    height: auto;
+}
+.w-category span{
+    padding: 0 20px;
+    color: #2b2b2b;
+}
+.w-category span:hover{
+    color: #0470d4;
+    cursor: pointer;
+}
+.w-category li::after{
+content: "/";
+}
+
+.overlay-cont{
+    transition: 300ms ease;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(12, 101, 237, .8);
+    transform: scaleX(0);
+    opacity: 0;
+    padding:10px 0 0 20px;
+}
+.sample:hover .overlay-cont{
+    transform: scaleX(1);
+    opacity: 1;
+    width: auto;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+}
