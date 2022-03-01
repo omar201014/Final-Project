@@ -351,6 +351,9 @@ content: "/";
     border-radius: 5px;
     background-color: #fff;    
 }
+.owl-carousel .owl-item img{
+    width: auto !important;
+}
 .client-img{
     width: 124px;
     display: table-cell;
