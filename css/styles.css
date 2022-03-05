@@ -440,4 +440,73 @@ content: "/";
     rotate: -148deg;
     left: 25%;
     top: -15px;
-}      
+}
+
+
+        /* contant-page */
+.contact-ban{
+    background-image: url(../images/slider1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.ban-heading{
+    padding: 140px 0 ;    
+}
+.ban-nav{
+    background-color: rgba(0, 0, 0, 0.23) !important;
+
+}
+
+        /* contact-info */
+.c-info-icon{
+    font-size: 40px;
+    color: #0c65ed;
+    display: block;
+    font-weight: bold;
+}       
+
+        /* footer */
+footer{
+    background-color: #1a1a1a;
+}
+
+.feed-cont h3::after{
+    position: absolute;
+    background-color: #0c65ed;
+    width: 35%;
+    height: 2px;
+    content: "";
+    bottom: 0;
+    left: 2px;
+}
+.feed-cont i{
+    position: absolute;
+    color: #f9f9f9;
+    font-size: 16px;
+    left: -25px;
+    top: 2px;
+}
+.news-post{
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2b2b2b;
+}
+.n-post-img{
+    display: table-cell;
+    overflow: hidden;
+}
+.n-post-cont{
+    color: white;
+    display: table-cell;
+    position: relative;
+}
+.ft-bottom{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 28px 0;
+}
+.ft-bottom a{
+    font-size: 13px;
+    color: #0c65ed !important;
+    text-align: center;
+    font-weight: bold;
+}
